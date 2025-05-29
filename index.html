@@ -3,29 +3,38 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to Net-Zero Resources</title>
+  <title>Welcome to Transcript Resources</title>
   <style>
     body {
       font-family: sans-serif;
       text-align: center;
-      padding: 100px;
+      padding: 80px 20px;
       background-color: #f5f5f5;
     }
 
     h1 {
       font-size: 36px;
       color: #333;
+      margin-bottom: 30px;
     }
 
     p {
       font-size: 18px;
-      margin-top: 20px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .button-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
     }
 
     a.button {
       display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
+      min-width: 220px;
+      padding: 14px 24px;
       font-size: 16px;
       color: white;
       background-color: #94c11e;
@@ -41,9 +50,17 @@
 </head>
 
 <body>
-  <h1>Welcome to the Net-Zero Learning Hub</h1>
-  <p>Click below to access the video transcripts and learning materials.</p>
-  <a class="button" href="NZ-video-transcripts.html">Go to Net-Zero Transcripts</a>
+  <h1>Welcome to the Learning Hub</h1>
+  <p>Select a transcript page below to view its content:</p>
+
+  <div class="button-grid">
+    <a class="button" href="NZ-video-transcripts.html">Net-Zero Transcripts</a>
+    <a class="button" href="RES-video-transcripts.html">Resources Transcripts</a>
+    <a class="button" href="HLT-video-transcripts.html">Health Transcripts</a>
+    <a class="button" href="RSC-video-transcripts.html">Research Transcripts</a>
+    <a class="button" href="EQT-video-transcripts.html">Equity Transcripts</a>
+    <a class="button" href="SKL-video-transcripts.html">Skills Transcripts</a>
+  </div>
 </body>
 
 </html>
